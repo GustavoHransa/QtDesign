@@ -1,0 +1,16 @@
+EXEMPLO PRA CONVERTER UI PARA PY 
+
+ABRA O CMD 
+
+PROCURA A PASTA NO CASO É ESSE CAMINHO  cd C:\Users\suporte\Documents\QtDesign
+
+DIGITE :  pyuic5 -o ex1.py ex1.ui ( VERIFIQUE OS NOMES DOS ARQUIVOS ESTÁ CORRETO )
+
+
+
+
+
+PARA EXECUTAR O ARQUIVO 
+
+C:\Users\suporte\Documents\QtDesign>python main_exercicio1.py  ( VERIFIQUE OS NOMES DOS ARQUIVOS ESTÁ CORRETO )
+
