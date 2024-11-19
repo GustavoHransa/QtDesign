@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:#1402d4;</string>
+   <string notr="true">background-color:#55aaff;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="lineEditnum1">
@@ -116,7 +116,7 @@
    <widget class="QRadioButton" name="radioButtonSubtrair">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>140</x>
       <y>150</y>
       <width>82</width>
       <height>17</height>
@@ -139,9 +139,9 @@
    <widget class="QRadioButton" name="radioButtonMultiplicar">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>240</x>
       <y>150</y>
-      <width>82</width>
+      <width>91</width>
       <height>17</height>
      </rect>
     </property>
