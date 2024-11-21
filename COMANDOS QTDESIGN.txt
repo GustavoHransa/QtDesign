@@ -14,3 +14,9 @@ PARA EXECUTAR O ARQUIVO
 
 C:\Users\suporte\Documents\QtDesign>python main_exercicio1.py  ( VERIFIQUE OS NOMES DOS ARQUIVOS ESTÁ CORRETO )
 
+
+COMANDO PARA TRANSFORMAR O .PY PRONTO PARA .EXE 
+
+
+pyinstaller --onefile --windowed seu_script.py
+
