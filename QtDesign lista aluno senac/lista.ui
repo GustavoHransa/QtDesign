@@ -14,53 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="gridLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>220</y>
-      <width>450</width>
-      <height>301</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="5" column="2">
-      <widget class="QPushButton" name="remover">
-       <property name="text">
-        <string>Remover Aluno</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QPushButton" name="adicionar">
-       <property name="text">
-        <string>Adicionar Aluno</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1" colspan="2">
-      <widget class="QListWidget" name="listWidget"/>
-     </item>
-     <item row="4" column="1" colspan="2">
-      <widget class="QLineEdit" name="lineEdit"/>
-     </item>
-     <item row="0" column="1" rowspan="2" colspan="2">
-      <widget class="QLabel" name="label_2">
-       <property name="font">
-        <font>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color:#ffffff;</string>
-       </property>
-       <property name="text">
-        <string>Lista Alunos - Senac Hub 2025 - Sala 307 </string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -118,10 +71,169 @@
      <bool>true</bool>
     </property>
    </widget>
-   <zorder>label</zorder>
-   <zorder>gridLayoutWidget</zorder>
-   <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>230</y>
+      <width>351</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Agatha</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Abner</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Evandro </string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gabriel</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gustavo Oliveira</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gustavo Farinha</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Henrique</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yasmin</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Isabella</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luan</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lorena</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kauã Miguel</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kauã Higa</string>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>190</y>
+      <width>361</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Lista Presença Alunos Senac - Sala 307</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>480</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salvar">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>480</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salvar</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
