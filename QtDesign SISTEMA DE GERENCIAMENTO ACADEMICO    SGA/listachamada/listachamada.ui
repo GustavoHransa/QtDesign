@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1259</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1271</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Imagens/5052425-abstrato-fundo-amarelo-e-azul-vetor.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>481</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Imagens/Logo_Senac_COR.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="avaliacao">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>690</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#0787ff;
+color:#ffffff;
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Lançar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>281</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Lista de chamada</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>230</y>
+      <width>1141</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Aluno </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>20/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>21/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>22/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>23/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>24/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>25/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>26/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>27/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>28/01/2024</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>29/01/2024</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Abner</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="0" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Agatha</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="1" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="1" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Evandro</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="2" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Gabriel</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="3" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Gustavo Nascimento</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="4" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>Gustavo Farina</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="5" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="5" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>Henrique</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="6" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>Isabela</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="7" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>Kaua Miguel</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="8" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>Kaua Higa</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="9" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="9" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>Lorena</string>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="10" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="10" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>Luan</string>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="11" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string>Pedro</string>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
+    <item row="12" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="9">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+    <item row="12" column="10">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkState">
+      <enum>Checked</enum>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEdit">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>660</y>
+      <width>194</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="voltar">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>670</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#0787ff;
+color:#ffffff;
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Voltar ao Menu Principal</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1259</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
